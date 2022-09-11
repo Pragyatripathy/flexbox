@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.bg-green {
+    background-color: green;
+}
+.bg-pink {
+    background-color: rgb(245, 5, 213);
+}
+.bg-slateblue {
+    background-color:rgb(44,43,67);
+}
+.flex {
+    display: flex;
+}
+.flex.col {
+    flex-direction: column;
+}
+.flex.row {
+    flex-direction: row;
+}
+.flex.jc-c {
+    justify-content: center;
+}
+.flex.ai-c {
+    align-items: center;
+}
+.flex.center {
+    justify-content: center;
+    align-items: center;
+}
+.flex.gap-8 {
+    gap: 8px;
+}
+.flex.gap-16 {
+    gap: 16px;
+}
+.flex.gap-24 {
+    gap: 24px;
+}
+.flex.gap-32 {
+    gap: 32px;
+}
+body {
+    background-color: rgb(30, 31, 47 );
+    padding: 30px;
+}
+.container{
+    color: white;
+    width: 500px;
+    position: relative;
+}
+.item-image {
+    height: 400px;
+}
+.item-name{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+}
+.padding {
+    padding: 14px;
+}
+.flex.jc-sb{
+    justify-content: space-between;
+}
+
+
+.discount{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    right: -6px;
+    top: -20px;
+}
+.price-old{
+    font-size: 24px;
+}
+.price-new{
+    font-size: 36px;
+}
+.image {
+    background-color: hotpink;
+    height: 120px;
+    width: 120px;
+}
